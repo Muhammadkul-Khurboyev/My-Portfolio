@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.sayt{
+  width: 800px;
+  height: 800px;
+  border: 30px solid black;
+  border-radius: 25%;
+margin-left: 400px;
+margin-block: 100px;
+}
+.sayt .box{
+  width: 500px;
+  height: 500px;
+  border: 30px solid black;
+  border-radius: 50%;
+  margin-left: 125px;
+  margin-block: 110px;
+
+}
+.sayt .box1{
+  width: 30px;
+  height: 30px;
+  border: 10px solid black;
+  border-radius: 50%;
+  margin-left: 500px;
+
+}

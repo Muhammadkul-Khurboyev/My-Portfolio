@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./main.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- site header -->
+  <header>
+    <div class="logo">
+      <span>P</span>ortfolio
+    </div>
+    <ul class="navlist">
+      <li>
+        <a class="navlist-link" style="--i:1;" href="#home">Home</a>
+      </li>
+      <li>
+        <a class="navlist-link" style="--i:2;" href="#about">About</a>
+      </li>
+      <li>
+        <a class="navlist-link" style="--i:3;" href="#skills">Skills</a>
+      </li>
+      <li>
+        <a class="navlist-link" style="--i:4;" href="#portfolio">Portfolio</a>
+      </li>
+      <li>
+        <a class="navlist-link" style="--i:5;" href="#contact">Contact</a>
+      </li>
+    </ul>
+    <div id="menu-icon" class="bx bx-menu"></div>
+  </header>
+
+  <!-- Home section --------------------------------------------------------- -->
+
+  <section id="home" class="home">
+    <div class="home-content scroll-scale">
+      <h1 class="name">
+        Hi! I'm Mukhammadkul Khurboyev
+      </h1>
+      <div class="change-text">
+        <h3 class="name-description">
+          And I'm
+        </h3>
+        <h3>
+          <span class="word">Frontend Developer</span>
+        </h3>
+      </div>
+      <p class="info">
+        I specialize in creating responsive and modern websites.
+        Let’s build something amazing together!
+      </p>
+
+      <div class="info-box">
+        <div class="email-info">
+          <h5>Email :</h5>
+          <a href="mailto:xmuhammadqul04@gmail.com">Email Link</a>
+        </div>
+        <div class="github-info">
+          <h5>Github :</h5>
+          <a href="https://github.com/Muhammadkul-Khurboyev">Github Link</a>
+        </div>
+      </div>
+
+      <div class="btn-box">
+        <a href="#" class="btn">Download CV</a>
+        <a href="#" class="btn">Hire Me Now!</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-dribbble'></i></a>
+      </div>
+
+    </div>
+
+    <div class="home-img scroll-scale">
+      <div class="img-box">
+        <img src="./images/mm.webp" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- About section --------------------------------------------------------- -->
+  <section id="about" class="about">
+    <div class="about-img scroll-scale">
+      <img src="./images/nn.png" alt="About me">
+      <div class="info-about1">
+        <span>Level</span>
+        <p>Junior</p>
+      </div>
+      <div class="info-about2">
+        <span>2+</span>
+        <p>Real Projects</p>
+      </div>
+    </div>
+
+    <div class="about-content scroll-scale">
+      <span>Let me introduce myself</span>
+      <h2>About Me</h2>
+      <h3>A story of good</h3>
+      <p>
+        Hi, I'm Muhammadqul Hurboyev, a passionate front-end developer with a strong foundation in modern web technologies. I have completed my training in HTML, CSS, SASS, Bootstrap, TailwindCSS, and JavaScript, and I’m eager to bring creative and functional designs to life.
+
+        I enjoy crafting responsive, user-friendly websites that not only look great but also deliver a seamless experience for users. My goal is to continuously learn and grow as a developer while contributing to projects that make a positive impact.
+
+        When I’m not coding, I enjoy exploring new design trends and staying updated with the latest advancements in web development.
+
+        Let’s create something amazing together!
+      </p>
+      <div class="btn-box">
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section --------------------------------------------------------- -->
+  <section id="skills" class="skills">
+    <div class="main-text scroll-scale">
+      <span>technical and frofessional</span>
+      <h2>My Skills</h2>
+    </div>
+
+    <div class="skill-main ">
+      <div class="skill-left scroll-scale">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar">
+          <div class="info">
+            <p>HTML</p>
+            <p>95%+</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>FIGMA</p>
+            <p>60%</p>
+          </div>
+          <div class="bar">
+            <span class="figma"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>JavaScript</p>
+            <p>70%</p>
+          </div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>CSS</p>
+            <p>90%+</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-right scroll-scale">
+        <h3>Professional Skills</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio section --------------------------------------------------------- -->
+  <section id="portfolio" class="portfolio">
+    <div class="main-text scroll-scale">
+      <span>What i will do for you</span>
+      <h2>Latest Projects</h2>
+    </div>
+
+    <div class="container">
+      <div class="fillter-buttons scroll-scale">
+        <button class="button" data-filter="all">All</button>
+        <button class="button" data-filter=".real">Real Project</button>
+        <button class="button" data-filter=".faik">Faik Database</button>
+        <button class="button" data-filter=".web">Web App</button>
+      </div>
+
+      <div class="portfolio-gallary scroll-bottom">
+        <div class="port-box mix real">
+          <div class="port-image">
+            <img src="./images/1.jpg" alt="All">
+          </div>
+
+          <div class="port-content">
+            <h3>Magic Mobile</h3>
+            <p>
+              Magic Mobile real project Amerikada avtomobil servicelarni yolga qoygan Uzbekistonlik hamyurtimiz uchun tayyorlangan site.
+            </p>
+            <a target="_blank" href="https://magicmobile-detailing.com/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box mix real">
+          <div class="port-image">
+            <img src="./images/2.jpg" alt="All">
+          </div>
+
+          <div class="port-content">
+            <h3>Xan Saray Cafe</h3>
+            <p>
+              Xan-Saray real project kafe yoki restoranlarni oldindan bron qilish uchun site.
+            </p>
+            <a target="_blank" href="https://xansaray-cafe.com/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box mix faik">
+          <div class="port-image">
+            <img src="./images/3.jpg" alt="All">
+          </div>
+
+          <div class="port-content">
+            <h3>Weather App</h3>
+            <p>
+              Open Weather Api yordamida har bir shahar, tuman va davlatlarning ob-havo ma'lumotlarini korsatish.
+            </p>
+            <a target="_blank" href="https://muhammadqul-weather.netlify.app/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box mix faik">
+          <div class="port-image">
+            <img src="./images/4.jpg" alt="All">
+          </div>
+
+          <div class="port-content">
+            <h3>Find Movies</h3>
+            <p>
+              OMDB Api orqali OMDB saytda bor kinolar bazasidan kino nomlari va kino haqidagi malumotlarni olib keluvchi faik database bilan ishlangan site.
+            </p>
+            <a target="_blank" href="https://stunning-kulfi-84fff9.netlify.app/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box mix faik">
+          <div class="port-image">
+            <img src="./images/5.jpg" alt="All">
+          </div>
+
+          <div class="port-content">
+            <h3>Namoz Vaqtlari</h3>
+            <p>
+              Namoz vaqtlari Uzbekiston barcha viloyatlarini bugungi kun, hafta va oylik namoz vaqtlarini korsatuvchi sayt.
+            </p>
+            <a target="_blank" href="https://singular-begonia-ea5802.netlify.app/"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box mix faik">
+          <div class="port-image">
+            <img src="./images/6.jpg" alt="All">
+          </div>
+
+          <div class="port-content">
+            <h3>Real Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequuntur dolorum quas eius et nihil aperiam excepturi.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section --------------------------------------------------------- -->
+
+  <section id="contact" class="contact">
+    <div class="main-text scroll-scale">
+      <span>ask me question</span>
+      <h2>Contact Me!</h2>
+    </div>
+
+    <form id="contactForm" class="scroll-bottom">
+      <input id="name" type="text" placeholder="Your name">
+      <input id="email" type="email" placeholder="Your email">
+      <input id="address" type="text" placeholder="Your address">
+      <input id="number" type="number" placeholder="Phone Number">
+      <textarea name="message" id="message" rows="10" cols="30" placeholder="Your message"></textarea>
+      <div class="btn-box formBtn">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer website---------------------------------------------------------- -->
+
+  <footer>
+    <p class="scroll-scale">Copyright &copy; 2024 by Parscoder || All right Reservd.</p>
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+  </footer>
+
+  <script src="./mixitup.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
