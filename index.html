@@ -287,10 +287,10 @@
     </div>
 
     <form id="contactForm" class="scroll-bottom">
-      <input id="name" type="text" placeholder="Your name">
-      <input id="email" type="email" placeholder="Your email">
-      <input id="address" type="text" placeholder="Your address">
-      <input id="number" type="number" placeholder="Phone Number">
+      <input id="name" type="text" placeholder="Your name" required minlength="2" maxlength="50">
+      <input id="email" type="email" placeholder="Your email" required>
+      <input id="address" type="text" placeholder="Your address" required minlength="2" maxlength="300">
+      <input id="number" type="number" placeholder="Phone Number" required min="0" max="30">
       <textarea name="message" id="message" rows="10" cols="30" placeholder="Your message"></textarea>
       <div class="btn-box formBtn">
         <button type="submit" class="btn">Send Message</button>
